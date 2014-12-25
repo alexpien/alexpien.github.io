@@ -1,0 +1,29 @@
+.gridRow li {
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.cell {
+	text-align: center;
+	line-height:0px;
+	padding-top:50px;
+	width: 100px;
+	height: 100px;
+	font-size:44px;
+	display:inline-block;
+	border: 1px solid #333;
+	margin: 10px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+
+body {
+	white-space: normal;
+}
+
+.white {
+	color: white;
+}
