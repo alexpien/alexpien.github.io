@@ -23,11 +23,14 @@ var TwentyFortyEightApp = React.createClass({displayName: "TwentyFortyEightApp",
 	},
 
 	keyPress(e) {
-		var oldGameState = [];
 
-		this.state.gameState.forEach(function(row, index) {
-			oldGameState[index] = row.slice(0);
-		}); 
+		// fucking javascript can't deep copy shit fuck.
+		var oldGameState = [
+			this.state.gameState[0].slice(0), 
+			this.state.gameState[1].slice(0), 
+			this.state.gameState[2].slice(0),
+			this.state.gameState[3].slice(0)
+		];
 
 		var newGameState = [];
 		if (e.keyCode === 39) {

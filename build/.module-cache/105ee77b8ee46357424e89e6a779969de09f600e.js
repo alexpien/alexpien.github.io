@@ -29,6 +29,7 @@ var TwentyFortyEightApp = React.createClass({displayName: "TwentyFortyEightApp",
 			oldGameState[index] = row.slice(0);
 		}); 
 
+
 		var newGameState = [];
 		if (e.keyCode === 39) {
 			oldGameState.forEach( function(row, index){

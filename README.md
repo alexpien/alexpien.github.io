@@ -1,4 +1,6 @@
-alexpien.github.io
+react2048
 =========
 
-React 2048 clone: https://github.com/alexpien/react2048
+2048 clone built with React.js
+
+original here http://gabrielecirulli.github.io/2048/
